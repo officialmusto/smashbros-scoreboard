@@ -1,0 +1,15 @@
+{
+  "appId": "com.officialmusto.smashbrosscoreboard",
+  "files": ["dist-react"],
+  "icon": "",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
