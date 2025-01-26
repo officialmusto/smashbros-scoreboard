@@ -1,15 +1,20 @@
 {
   "appId": "com.officialmusto.smashbrosscoreboard",
-  "files": ["dist-react"],
-  "icon": "",
+  "files": [
+    "dist-react/**/*",
+    "src/electron/**/*",
+    "package.json"
+  ],
   "mac": {
-    "target": "dmg"
+    "target": "dmg",
+    "icon": "src/ui/assets/mushroom-logo.icns"
   },
   "linux": {
     "target": "AppImage",
     "category": "Utility"
   },
   "win": {
-    "target": ["portable", "msi"]
+    "target": ["portable", "msi"],
+    "icon": "src/ui/assets/mushroom-logo.ico"
   }
 }

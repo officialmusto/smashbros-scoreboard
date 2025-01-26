@@ -3,4 +3,4 @@
 ### Description
 - **Anything that requires a smash-bros scoreboard has now gotten easier!**
 
-## More to come. 🚧👷‍♂️
+## More to come 🚧👷‍♂️

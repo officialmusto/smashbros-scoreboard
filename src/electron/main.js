@@ -1,8 +1,11 @@
 import {app, BrowserWindow} from 'electron'
 import path from 'path'
 
+//constants
+let mainWindow 
+
 app.on("ready", () => {
-  const mainWindow = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
     backgroundColor: "#1e1e1e",
