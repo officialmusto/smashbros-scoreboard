@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "src/electron/main.js",
+  "main": "src/electron/main.jsx",
   "scripts": {
     "dev:react": "vite",
-    "dev:electron": "electron .",
+    "dev:electron": "cross-env NODE_ENV=development electron .",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
