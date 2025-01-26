@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 dist
 dist-react
-.gitignore
 *.local
 
 # Editor directories and files
